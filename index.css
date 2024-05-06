@@ -287,13 +287,13 @@ body{
 	.container {
 		flex-direction: column;
 	}
-    .row {
+    	.row {
 		flex-direction: column;
         display: flex;
         justify-content: center; /* Mengatur posisi horizontal menjadi di tengah */
         align-items: center;
 	}
-    .row-1{
+    	.row-1{
 		flex-direction: column;
 	}
 }
@@ -306,13 +306,13 @@ body{
 	.container {
 		flex-direction: row;
 	}
-    .row {
+    	.row {
 		flex-direction: column;
         display: flex;
         justify-content: center; /* Mengatur posisi horizontal menjadi di tengah */
         align-items: center;
 	}
-    .row-1{
+    	.row-1{
 		flex-direction: column;
 	}
 }
@@ -326,10 +326,10 @@ body{
 	.container {
 		flex-direction: row;
 	}
-    .row {
+    	.row {
 		flex-direction: row;
 	}
-    .row-1{
+    	.row-1{
 		flex-direction: row;
 	}
 }
