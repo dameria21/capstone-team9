@@ -18,13 +18,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center; /* Tengahkan elemen dalam kolom */
-    background-color: #136893;
+    background-color: #A9B388;
     width: 100%;
     padding-top: 1rem;
     /* height: 630px; */
 }
 .navbar:hover {
-    background-color: rgb(12, 100, 132); /* Ubah warna background ketika kursor menunjuk */
+    background-color: rgb(131, 146, 97); /* Ubah warna background ketika kursor menunjuk */
 }
 .navbar-1 {
     display: flex;
@@ -46,7 +46,7 @@ body{
 }
 .navbar-2 {
     display: flex;
-    background-color: rgb(7, 90, 121);
+    background-color: #E8EFCF;
     border-radius: 20px;
     height: 2px;
     width: 4%;
@@ -65,7 +65,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .navbar-2:hover {
-    background-color: rgb(7, 69, 91); /* Ubah warna background ketika kursor menunjuk */
+    background-color: #AFD198 /* Ubah warna background ketika kursor menunjuk */
 }
 .statistics{
     background-color: #d74b76;
@@ -156,10 +156,10 @@ body{
 .container {
     display: flex;
     justify-content: center;
-    background-color: rgb(7, 90, 121);
+    background-color: #FEFAE0;
 }
 .container:hover {
-    background-color: rgb(34, 131, 196); /* Ubah warna background ketika kursor menunjuk */
+    background-color: rgb(248, 239, 210); /* Ubah warna background ketika kursor menunjuk */
 }
 .card-1 {
     display: flex;
@@ -183,10 +183,10 @@ body{
 .row{
     display: flex;
     justify-content: center;
-    background-color: rgba(207, 197, 197, 0.897);
+    background-color: #FFE0B5;
 }
 .row:hover {
-    background-color: rgb(136, 153, 159); /* Ubah warna background ketika kursor menunjuk */
+    background-color: rgb(248, 239, 210); /* Ubah warna background ketika kursor menunjuk */
 }
 /* Create two equal columns that floats next to each other */
 .column {
@@ -250,7 +250,7 @@ body{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .profile-title-1{
-    background-color: #77B0AA;
+    background-color: #F8C794;
     border-radius: 2rem;
     padding: 1%;
     margin: 5%;
@@ -270,13 +270,13 @@ body{
     flex-direction: column; /* Menjadikan elemen anak menjadi kolom */
     align-items: center; /* Menengahkan elemen dalam kolom secara horizontal */
     text-align: center; /* Memposisikan teks di tengah secara horizontal */
-    background-color: rgba(22, 88, 112, 0.769);
+    background-color: #B99470;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: x-large;
 }
 .row-2:hover {
-    background-color: rgb(9, 53, 69); /* Ubah warna background ketika kursor menunjuk */
+    background-color: rgb(248, 239, 210); /* Ubah warna background ketika kursor menunjuk */
 }
 /*mobile*/
 @media (min-width: 576px) {
@@ -287,13 +287,13 @@ body{
 	.container {
 		flex-direction: column;
 	}
-    	.row {
+    .row {
 		flex-direction: column;
         display: flex;
         justify-content: center; /* Mengatur posisi horizontal menjadi di tengah */
         align-items: center;
 	}
-    	.row-1{
+    .row-1{
 		flex-direction: column;
 	}
 }
@@ -306,13 +306,13 @@ body{
 	.container {
 		flex-direction: row;
 	}
-    	.row {
+    .row {
 		flex-direction: column;
         display: flex;
         justify-content: center; /* Mengatur posisi horizontal menjadi di tengah */
         align-items: center;
 	}
-    	.row-1{
+    .row-1{
 		flex-direction: column;
 	}
 }
@@ -326,10 +326,10 @@ body{
 	.container {
 		flex-direction: row;
 	}
-    	.row {
+    .row {
 		flex-direction: row;
 	}
-    	.row-1{
+    .row-1{
 		flex-direction: row;
 	}
 }
